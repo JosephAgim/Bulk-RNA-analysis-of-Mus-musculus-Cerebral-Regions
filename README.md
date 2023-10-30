@@ -43,6 +43,7 @@ BiocManager::install("pathview",
 )
 
 Usage
+
 This project provides code snippets and instructions for various gene expression analysis tasks. The main files and directories in this repository are:
 
 data/: Contains the raw gene expression data files in CSV and XLSX formats.
@@ -60,6 +61,7 @@ Data
 The gene expression data used in this project can be obtained from [source/source-link]. It includes [description of the data, such as the platform used, sample information, and preprocessing steps].
 
 Contributing
+
 Contributions to this project are welcome. If you would like to contribute, please follow these guidelines:
 
 Fork the repository and create a new branch for your contribution.
@@ -69,12 +71,15 @@ Provide a clear description of your changes and the problem they solve.
 For any issues or questions, please use the GitHub issue tracker.
 
 License
+
 This project is licensed under the MIT License.
 
 Contact
+
 For any inquiries or feedback, please contact JosephAgim at Josag897@student.liu.se
 
 Acknowledgements
+
 We would like to acknowledge the invaluable assistance of ChatGPT 4.0 in debugging and generating solutions for various tasks in R. 
 ChatGPT 4.0, powered by OpenAI, has provided valuable insights and guidance throughout the development of this project. 
 Its natural language processing capabilities have greatly facilitated the troubleshooting process and enabled the generation of accurate and effective solutions.
