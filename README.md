@@ -24,6 +24,7 @@ Install the required R packages by running the following command in the R consol
 
 # Copy code to install packages
 install.packages("BiocManager")
+
 BiocManager::install("pathview",
 "clusterProfiler",
 "dplyr",
