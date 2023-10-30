@@ -1,14 +1,14 @@
 # Bulk-RNA-analysis-of-Mus-musculus-Cerebral-Regions
 DGE's of Astrocytes and Microglia across different brain regions in the Mus musculus genome 
 
-Gene Expression Analysis
+# Gene Expression Analysis
 MIT License
 
-Description
+# Description
 This project provides a step-by-step guide for gene expression analysis using R. It covers various tasks such as data loading, preprocessing, differential gene expression analysis, pathway enrichment analysis,
 and visualization of results. The code and instructions provided in this repository serve as a practical resource for researchers and analysts working with gene expression data.
 
-Table of Contents
+# Table of Contents
 Installation
 Usage
 Data
@@ -21,7 +21,7 @@ Install R programming language (version 4.2.2) from the R Project website.
 Install RStudio integrated development environment (IDE) from the Posit website.
 Install the required R packages by running the following command in the R console:
 
-Copy code
+# Copy code to install packages
 install.packages("BiocManager")
 BiocManager::install("pathview",
 "clusterProfiler",
@@ -42,8 +42,7 @@ BiocManager::install("pathview",
 "UpSetR"
 )
 
-Usage
-
+# Usage
 This project provides code snippets and instructions for various gene expression analysis tasks. The main files and directories in this repository are:
 
 data/: Contains the raw gene expression data files in CSV and XLSX formats.
@@ -60,8 +59,7 @@ Customize and adapt the code and instructions according to your specific needs.
 Data
 The gene expression data used in this project can be obtained from [source/source-link]. It includes [description of the data, such as the platform used, sample information, and preprocessing steps].
 
-Contributing
-
+# Contributing
 Contributions to this project are welcome. If you would like to contribute, please follow these guidelines:
 
 Fork the repository and create a new branch for your contribution.
@@ -70,16 +68,13 @@ Ensure your code follows the project's coding style and conventions.
 Provide a clear description of your changes and the problem they solve.
 For any issues or questions, please use the GitHub issue tracker.
 
-License
-
+# License
 This project is licensed under the MIT License.
 
-Contact
-
+# Contact
 For any inquiries or feedback, please contact JosephAgim at Josag897@student.liu.se
 
-Acknowledgements
-
+# Acknowledgements
 We would like to acknowledge the invaluable assistance of ChatGPT 4.0 in debugging and generating solutions for various tasks in R. 
 ChatGPT 4.0, powered by OpenAI, has provided valuable insights and guidance throughout the development of this project. 
 Its natural language processing capabilities have greatly facilitated the troubleshooting process and enabled the generation of accurate and effective solutions.
