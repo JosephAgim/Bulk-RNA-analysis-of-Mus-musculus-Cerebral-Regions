@@ -23,8 +23,11 @@ Install RStudio integrated development environment (IDE) from the Posit website.
 Install the required R packages by running the following command in the R console:
 
 # Copy code to install packages
+[First install BiocManager]
+
 install.packages("BiocManager")
 
+[Second install all packages deriving from the BiocManager packages]
 BiocManager::install("pathview",
 "clusterProfiler",
 "dplyr",
