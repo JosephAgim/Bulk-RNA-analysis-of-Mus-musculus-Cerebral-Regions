@@ -18,7 +18,7 @@ License
 Installation
 To run the code in this project, follow these steps:
 
-Install R programming language (version 4.2.2) from the R Project website.
+Install R programming language (version 4.3.1) from the R Project website.
 Install RStudio integrated development environment (IDE) from the Posit website.
 Install the required R packages by running the following command in the R console:
 
