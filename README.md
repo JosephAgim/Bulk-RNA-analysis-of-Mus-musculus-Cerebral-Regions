@@ -47,10 +47,10 @@ packages <- c(
   "UpSetR"
 )
 
-//Install packages using a loop
+Install packages using a loop
 
-for (package in packages) {
-  BiocManager::install(package)
+for (i in packages) {
+  BiocManager::install(i)
 }
 
 # Usage
