@@ -44,7 +44,8 @@ packages <- c(
   "gplots",
   "VennDiagram",
   "eulerr",
-  "UpSetR"
+  "UpSetR",
+  "pheatmap"
 )
 
 Install packages using a loop
