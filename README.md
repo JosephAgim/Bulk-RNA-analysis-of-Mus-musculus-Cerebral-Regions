@@ -23,27 +23,33 @@ Install RStudio integrated development environment (IDE) from the Posit website.
 Install the required R packages by running the following command in the R console:
 
 # Copy code to install packages
-
 install.packages("BiocManager")
 
-BiocManager::install("pathview",
-"clusterProfiler",
-"dplyr",
-"limma",
-"edgeR",
-"org.Mm.eg.db",
-"AnnotationDbi",
-"tidyverse",
-"biomaRt",
-"readxl",
-"affy",
-"ggplot2",
-"sva",
-"gplots",
-"VennDiagram",
-"eulerr",
-"UpSetR"
+//List of package names
+packages <- c(
+  "pathview",
+  "clusterProfiler",
+  "dplyr",
+  "limma",
+  "edgeR",
+  "org.Mm.eg.db",
+  "AnnotationDbi",
+  "tidyverse",
+  "biomaRt",
+  "readxl",
+  "affy",
+  "ggplot2",
+  "sva",
+  "gplots",
+  "VennDiagram",
+  "eulerr",
+  "UpSetR"
 )
+
+//Install packages using a loop
+for (package in packages) {
+  BiocManager::install(package)
+}
 
 # Usage
 This project provides code snippets and instructions for various gene expression analysis tasks. The main files and directories in this repository are:
