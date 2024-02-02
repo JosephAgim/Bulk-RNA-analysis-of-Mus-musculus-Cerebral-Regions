@@ -60,6 +60,7 @@ This project provides code snippets and instructions for various gene expression
 data/: Contains the raw gene expression data files in CSV and XLSX formats.
 scripts/: Contains R scripts for different analysis steps, including data loading, preprocessing, differential expression analysis, and pathway enrichment analysis.
 results/: Contains the output files generated during the analysis.
+protocol: Contains the code used to generate each illustrations in a html format. The visualizations does not fit entierly but they have been posted into separate folders.  
 README.md: This file provides an overview of the project and instructions on how to use it.
 To perform gene expression analysis using this project:
 
