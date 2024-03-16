@@ -23,9 +23,10 @@ Install RStudio integrated development environment (IDE) from the Posit website.
 Install the required R packages by running the following command in the R console:
 
 # Copy code to install packages
+```bash
 install.packages("BiocManager")
 
-List of package names
+#List of package names
 
 packages <- c(
   "pathview",
@@ -53,7 +54,7 @@ Install packages using a loop
 for (i in packages) {
   BiocManager::install(i)
 }
-
+```
 # Usage
 This project provides code snippets and instructions for various gene expression analysis tasks. The main files and directories in this repository are:
 
