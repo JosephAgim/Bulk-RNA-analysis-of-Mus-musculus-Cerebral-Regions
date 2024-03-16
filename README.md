@@ -49,7 +49,7 @@ packages <- c(
   "pheatmap"
 )
 
-Install packages using a loop
+#Install packages using a loop
 
 for (i in packages) {
   BiocManager::install(i)
