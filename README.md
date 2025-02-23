@@ -15,7 +15,9 @@ Usage
 Data
 Contributing
 License
-Installation
+Contact
+Acknowledgement
+
 To run the code in this project, follow these steps:
 
 Install R programming language (version 4.3.1) from the R Project website.
@@ -88,8 +90,11 @@ This project is licensed under the MIT License.
 # Contact
 For any inquiries or feedback, please contact JosephAgim at Josag897@student.liu.se
 
-# Acknowledgements
-We would like to acknowledge the invaluable assistance of ChatGPT 4.0 in debugging and generating solutions for various tasks in R. 
-ChatGPT 4.0, powered by OpenAI, has provided valuable insights and guidance throughout the development of this project. 
-Its natural language processing capabilities have greatly facilitated the troubleshooting process and enabled the generation of accurate and effective solutions.
-We are grateful for the assistance and support provided by ChatGPT 4.0 in enhancing the quality and efficiency of this project.
+# Acknowledgement
+For all the participants in this project at Linköping University:
+For the time spent in the lab.
+For the time spent reading through the literature.
+For the time spent sharing knowledge over coffie break.
+For the opportunity given to be a part of this project. 
+I'm grateful.
+Kudos to you ALL!
